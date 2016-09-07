@@ -1,0 +1,28 @@
+Installing GIT on Linux Command
+----------------------------------------------------------
+	sudo apt-get install git
+
+ Configuring GitHub
+----------------------------------------------------------
+Once the installation has successfully completed, the next thing to do is to set up the configuration details of the GitHub user. To do this use the following two commands by replacing "user_name" with your GitHub username and replacing "email_id" with your email-id you used to create your GitHub account.
+
+	git config --global user.name "user_name"
+	git config --global user.email "email_id"
+
+Creating a local repository
+------------------------------------------------------------------
+Create a folder in your system. This will serve as a local repository which will later be pushed onto the GitHub website. Use the following command:
+
+	git init Mytest
+
+If the repository is created successfully, then you will get the following line:
+
+Initialized empty Git repository in /home/akhil/Mytest/.git/
+This line may vary depending on your system.
+
+
+So here, Mytest is the folder that is created and "init" makes the folder a GitHub repository. Change the directory to this newly created folder:
+
+	cd Mytest
+
+
