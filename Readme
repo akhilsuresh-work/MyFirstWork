@@ -24,5 +24,7 @@ This line may vary depending on your system.
 So here, Mytest is the folder that is created and "init" makes the folder a GitHub repository. Change the directory to this newly created folder:
 
 	cd Mytest
+--------------------------------------------------------------------------------------------------------------------------------------------
 
+Just to check wheather this change is taken or not.
 
