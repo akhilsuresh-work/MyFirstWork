@@ -24,7 +24,43 @@ This line may vary depending on your system.
 So here, Mytest is the folder that is created and "init" makes the folder a GitHub repository. Change the directory to this newly created folder:
 
 	cd Mytest
+
+Creating a file within the Mytest repository
+---------------------------------------------------------------------------------------------------------------------------------------------
+use gedit or any other editor to create the file in git
+	ex:
+		gedit My_test_file
+-->	Save the file inside Mytest
+
+Check the status of the git repositorty
 --------------------------------------------------------------------------------------------------------------------------------------------
+	git status
 
-Just to check wheather this change is taken or not.
+Tracking our file to the git table
+--------------------------------------------------------------------------------------------------------------------------------------------
+	git add <file_name>
 
+Creating the commit of our file inside git
+-------------------------------------------------------------------------------------------------------------------------------------------
+	git commit -m "your message for commit goes here"
+
+####> -m says following should be treated as message
+
+ 
+Pushing a commit to remote repository
+---------------------------------------------------------------------------------------------------------------------------------------------
+	git push <url of remote repositiory>
+
+
+
+!!!!!!!!!!!Error while Pushing
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+		This happens because there is already some files inside our git repository and git fears whether adding any further will affect the git repository.
+
+
+Syncing remote repositiory with local repository
+---------------------------------------------------------------------------------------------------------------------------------------------
+	git pull <url of remote repositiory>
+
+NB: Then push the repository if the error happend while pushing.
